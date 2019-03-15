@@ -1,0 +1,273 @@
+@font-face {
+ font-family: 'Museo';
+ src: url('https://github.com/misaldana8/web_1_project_2/blob/master/assets/fonts/museo/museo-300-webfont.ttf?raw=true') format("ttf");
+}
+
+body {
+  background: url('https://github.com/Riaht2/web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true');
+  font-family: "Museo", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+a {
+  text-decoration: none;
+  color: #383838;
+}
+
+#leftnav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.name {
+  width: 100px;
+  padding: 5px;
+}
+#rightnav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+h2 {
+  position: absolute;
+}
+
+h5 {
+  font-size: 16px;
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+
+#id {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  background-color: white;
+}
+
+#userimage {
+  width:20%;
+  height:70px;
+  background-color: grey;
+}
+
+#project {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 40%;
+}
+
+#section-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#image {
+  position: relative;
+  width: 250px;
+  height: 150px;
+  background-color: #484848;
+  margin: 10px;
+  padding: 10px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.media{
+  width: 20px;
+}
+
+.social {
+  width: 10px;
+}
+
+#footer-columns {
+	display: flex;
+}
+
+.footer-column {
+	width: 33%;
+	background: darkgrey;
+	margin: 10px;
+	padding: 10px;
+}
+
+#thumbnail{
+  position: relative;
+  width: 70px;
+  height: 50px;
+  background-color: #535352;
+  margin: 10px 10px 10px 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+
+#student-feature {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr) 2fr;
+	grid-template-rows: repeat(3, 1fr); 
+	grid-gap: 10px;
+}
+
+img {
+	width: 100%;
+}
+
+#focus {
+	background-color: grey;
+	background-size: cover;
+	background-position: center;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 1; 
+	grid-row-end: 3;
+	border: 5px solid white;
+	display: flex;
+	align-items: flex-end;
+	flex-wrap: wrap;
+}
+
+.leftarrow {
+	width: 7%;
+	position: relative;
+	left: -2%;
+}
+
+.rightarrow {
+	width: 7%;
+	position: relative;
+	left: 88%;
+}
+
+#bar {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+  width: 100%;
+  height: 40px;
+  background-color: #424949;
+  color: white;
+	padding: 1px 10px 10px 10px;
+ }
+
+.bird {
+  width: 30px;
+  height: 25px;
+  position: absolute;
+  left: 340px;
+  bottom: -750px;
+}
+
+
+#position-one {
+	background: grey;
+	background-position: center;
+	background-size: cover;
+	grid-column-start: 1 ;
+	grid-column-end: 2;
+	grid-row-start: 3; 
+	grid-row-end: 4;
+	border: 5px solid white;
+}
+
+.title{
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+  
+}
+
+#position-two {
+	background: grey;
+	background-position: center;
+	background-size: cover;
+	grid-column-start: 2 ;
+	grid-column-end: 3;
+	grid-row-start: 3; 
+	grid-row-end: 4;
+	border: 5px solid white;
+}
+
+#position-three {
+	background: grey;
+	background-position: center;
+	background-size: cover;
+	grid-column-start: 3 ;
+	grid-column-end: 4;
+	grid-row-start: 3; 
+	grid-row-end: 4;
+	border: 5px solid white;
+}
+
+#bio {
+	background: white;
+  color: #484848;  
+	grid-column-start: 4 ;
+	grid-column-end: 5;
+	grid-row-start: 1; 
+	grid-row-end: 2;
+	padding: 10px 20px 45px 90px;
+  margin: 10px;
+}
+
+#id {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	}
+
+.social {
+	width: 8%;
+}
+
+#userimage {
+	background: grey;
+	padding: 30px 30px 30px 30px;
+  position: adsolute;
+}
+
+#project-detail {
+	background: white;
+	grid-column-start: 4 ;
+	grid-column-end: 5;
+	grid-row-start: 2; 
+	grid-row-end: 4;
+	padding: 10px;
+  margin: 10px;
+}
+
+#topfooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#search-bar {
+  width: 60%;
+  height: 21px;
+  background-color: white;
+  display: flex;
+  padding: 5px 85px 5px 5px;
+  color: #444;
+}
+
+.grid-images {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
